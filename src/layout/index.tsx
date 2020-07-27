@@ -1,11 +1,12 @@
-import React from "react";
-import Head from "next/head";
+import React from 'react';
+
+import Head from 'next/head';
 
 interface Props {
   title?: string;
 }
 
-const Layout: React.FC<Props> = ({ children, title = "" }) => (
+const Layout: React.FC<Props> = ({ children, title = '' }) => (
   <>
     <Head>
       <meta charSet="utf-8" />

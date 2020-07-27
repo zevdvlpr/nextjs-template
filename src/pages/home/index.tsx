@@ -1,5 +1,6 @@
-import React from "react";
-import Layout from "@layout";
+import React from 'react';
+
+import Layout from '@layout';
 
 const IndexPage = () => (
   <Layout>
