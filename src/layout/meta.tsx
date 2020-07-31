@@ -23,19 +23,8 @@ const layout: React.FC<Props> = ({ title, description, image, url }) => (
 
     <meta property="og:image:width" content="1920" />
     <meta property="og:image:height" content="1080" />
-
     <meta property="og:image" content={image} />
     <meta property="og:image:secure_url" content={image} />
-
-    <meta name="twitter:site" content="aa" />
-    <meta name="twitter:creator" content="aa" />
-    <meta name="twitter:card" content="summary_large_image" />
-
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-
-    <meta name="twitter:image" content={image} />
-    <meta name="twitter:image:src" content={image} />
 
     <link rel="icon" href={image} />
     <link rel="shortcut icon" href={image} />
