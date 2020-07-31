@@ -30,10 +30,13 @@
     "@typescript-eslint",
     "import-helpers"
   ],
-  "rules": {    
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-unused-expressions": "error",
     "camelcase": "off",
     "object-curly-newline": "off",
-    "comma-dangle": "off",    
+    "comma-dangle": "off",
     "arrow-parens": "off",
     // "prettier/prettier": "error",
     "global-require": "off",
@@ -47,7 +50,6 @@
     "import/no-unresolved": "off",
     "operator-linebreak": "off",
     "no-unused-expressions": "off",
-    "@typescript-eslint/no-unused-expressions": "error",
     "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
@@ -59,8 +61,7 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "import/prefer-default-export": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/explicit-member-accessibility": "off",
+    "import/no-cycle": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
