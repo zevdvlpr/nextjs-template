@@ -30,12 +30,12 @@
     "@typescript-eslint",
     "import-helpers"
   ],
-  "rules": {
+  "rules": {    
     "camelcase": "off",
     "object-curly-newline": "off",
-    "comma-dangle": "off",
+    "comma-dangle": "off",    
     "arrow-parens": "off",
-    "prettier/prettier": "error",
+    // "prettier/prettier": "error",
     "global-require": "off",
     "react/prop-types": "off",
     "no-param-reassign": "off",
@@ -43,6 +43,8 @@
     "no-underscore-dangle": "off",
     "implicit-arrow-linebreak": "off",
     "indent": "off",
+    "linebreak-style": "off",
+    "import/no-unresolved": "off",
     "operator-linebreak": "off",
     "no-unused-expressions": "off",
     "@typescript-eslint/no-unused-expressions": "error",
@@ -72,7 +74,7 @@
       {
         "newlinesBetween": "always",
         "groups": [
-          "/^(react|styled-components)/",
+          "/^(react|next|styled-components)/",
           "module",
           "/^@/components/",
           ["parent", "sibling", "index"]

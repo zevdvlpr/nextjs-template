@@ -5,11 +5,15 @@ export default createGlobalStyle`
     padding: 0;
     margin: 0;
     
-    box-sizing: border-box;        
+    box-sizing: border-box;              
+    
+    color: ${props => props.theme.colors.white};
   }
   
   html, body #root {
     height: 100%;   
-    width: 100%;
+    width: 100%;        
+    
+    background-color: ${props => props.theme.colors.black}        
   }
 `;

@@ -25,6 +25,7 @@
     "paths": {
       "@api/*": ["api/*"],
       "@components/*": ["components/*"],      
+      "@config/*": ["config/*"],
       "@layout": ["layout"],
       "@styles/*": ["styles/pages/*"]
     }
