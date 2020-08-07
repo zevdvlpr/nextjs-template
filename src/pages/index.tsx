@@ -1,3 +1,3 @@
-import Home from './Home';
+import Profile from './[username]';
 
-export default Home;
+export default Profile;

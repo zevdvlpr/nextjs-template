@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-template",
-  "description": "Minhas configurações que uso nos meus projetos de front-end usando Next.js com Typescript.",
+  "name": "github-clone",
+  "description": "Clone da interface do Github para fins de estudo.",
   "version": "1.0.0",
   "scripts": {
     "dev": "run-s clean run",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zevdvlpr/nextjs-template.git"
+    "url": "git+https://github.com/zevdvlpr/github-clone.git"
   },
   "keywords": [
     "reactjs",
@@ -29,21 +29,26 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zevdvlpr/nextjs-template/issues"
+    "url": "https://github.com/zevdvlpr/github-clone/issues"
   },
-  "homepage": "https://github.com/zevdvlpr/nextjs-template#readme",
+  "homepage": "https://github.com/zevdvlpr/github-clone#readme",
   "dependencies": {
     "axios": "^0.19.2",
+    "date-fns": "^2.15.0",
     "next": "latest",
     "react": "^16.12.0",
+    "react-calendar-heatmap": "^1.8.1",
     "react-dom": "^16.12.0",
+    "react-icons": "^3.10.0",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^9.4.4",
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
+    "@types/react-calendar-heatmap": "^1.6.2",
     "@types/react-dom": "^16.9.4",
+    "@types/react-icons": "^3.0.0",
     "@types/styled-components": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^3.7.0",
     "@typescript-eslint/parser": "^3.7.0",
