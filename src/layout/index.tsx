@@ -10,10 +10,10 @@ export interface Props {
 }
 
 const Layout: React.FC<Props> = ({
-  title = '',
-  description = '',
-  image = '',
-  url = '',
+  title = 'NextJS Template',
+  description = 'Minhas configurações que uso nos meus projetos de front-end usando Next.js com Typescript.',
+  image = 'https://img.icons8.com/ios-filled/32/0080FF/typescript.png',
+  url = 'https://nextjs-template-zevdvlpr.vercel.app',
   children,
 }) => (
   <>
