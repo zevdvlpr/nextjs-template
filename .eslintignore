@@ -1,12 +1,23 @@
+# node modules paste
+node_modules/
+
+# build paste
 dist/
+
+# babel
 .babelrc
+
+# vscode configs
 .editorconfig
-.eslintignore
-.eslintrc.js
-.gitignore
+
+# prettier
+.prettierignore
+.prettierrc
+
+# next settings
 next-env.d.ts
 next.config.js
-package.json
-prettier.config.js
-tsconfig.json
+
+# yarn files
 yarn.lock
+yarn-error.log*
